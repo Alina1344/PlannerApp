@@ -66,3 +66,4 @@ C:\Users\Алина\RiderProjects\PlannerApp\PlannerApp\bin\Debug\net8.0\runtime
 C:\Users\Алина\RiderProjects\PlannerApp\PlannerApp\obj\Debug\net8.0\PlannerApp.csproj.Up2Date
 C:\Users\Алина\RiderProjects\PlannerApp\PlannerApp\obj\Debug\net8.0\PlannerApp.genruntimeconfig.cache
 C:\Users\Алина\RiderProjects\PlannerApp\PlannerApp\obj\Debug\net8.0\ref\PlannerApp.dll
+C:\Users\Алина\RiderProjects\PlannerApp\PlannerApp\obj\Debug\net8.0\PlannerApp.sourcelink.json

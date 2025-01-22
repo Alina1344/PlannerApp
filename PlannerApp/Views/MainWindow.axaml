@@ -18,5 +18,20 @@
     <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
 </Window>
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:PlannerApp.ViewModels"
+        x:Class="PlannerApp.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Title="PlannerApp">
+    <StackPanel Margin="20">
+        <TextBlock Text="Планировщик задач" FontSize="24" Margin="0,0,0,20" />
+        <TextBox Watermark="Введите имя пользователя" Text="{Binding Username}" />
+        <TextBox Watermark="Введите пароль" Text="{Binding Password}" />
+        <Button Content="Войти" Command="{Binding LoginCommand}" />
+        <TextBlock Text="{Binding Greeting}" Margin="0,20,0,0" Visibility="{Binding IsLoggedIn, Converter={StaticResource BoolToVisibilityConverter}}" />
+    </StackPanel>
+</Window>
+
 
 

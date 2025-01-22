@@ -22,8 +22,5 @@ build_property.EnableGeneratedComInterfaceComImportInterop =
 [C:/Users/Алина/RiderProjects/PlannerApp/PlannerApp/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/Алина/RiderProjects/PlannerApp/PlannerApp/Views/LoginWindow.axaml]
-build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
-
 [C:/Users/Алина/RiderProjects/PlannerApp/PlannerApp/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
