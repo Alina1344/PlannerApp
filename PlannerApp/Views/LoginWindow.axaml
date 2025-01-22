@@ -1,0 +1,17 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:PlannerApp.ViewModels"
+        x:Class="PlannerApp.Views.LoginWindow"
+        x:DataType="vm:LoginWindowViewModel"
+        Title="Login">
+
+    <StackPanel Margin="20">
+        <TextBlock Text="Username" />
+        <TextBox Text="{Binding Username}" Width="200" />
+
+        <TextBlock Text="Password" />
+        <TextBox Text="{Binding Password}" PasswordChar="*" Width="200" />
+
+        <Button Command="{Binding LoginCommand}" Content="Login" Width="100" HorizontalAlignment="Center" />
+    </StackPanel>
+</Window>

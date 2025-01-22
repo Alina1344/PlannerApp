@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="PlannerApp/Views/LogWindow.axaml" value="PlannerApp/PlannerApp.csproj" />
+        <entry key="PlannerApp/Views/LoginWindow.axaml" value="PlannerApp/PlannerApp.csproj" />
+        <entry key="PlannerApp/Views/MainWindow.axaml" value="PlannerApp/PlannerApp.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
