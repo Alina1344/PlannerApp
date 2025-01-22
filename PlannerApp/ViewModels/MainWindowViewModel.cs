@@ -1,11 +1,14 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using System.Windows.Input;
+using PlannerApp.Models;
+
 
 namespace PlannerApp.ViewModels;
 
 public partial class MainWindowViewModel : ViewModelBase
 {
+    private readonly MainContentViewModel _mainContentViewModel;
+
     [ObservableProperty]
     private string _username = string.Empty;
 
@@ -14,32 +17,44 @@ public partial class MainWindowViewModel : ViewModelBase
 
     [ObservableProperty]
     private bool _isLoggedIn;
-    
+
     [ObservableProperty]
     private string _errorMessage;
+    
+    public MainContentViewModel ContentViewModel { get; } = new MainContentViewModel();
 
-
-    public ICommand LoginCommand { get; }
 
     public MainWindowViewModel()
     {
+        _mainContentViewModel = new MainContentViewModel();
         LoginCommand = new RelayCommand(ExecuteLogin);
     }
+    
+    // Прокси-свойство для SelectedTodo
+    public Todo SelectedTodo
+    {
+        get => ContentViewModel.SelectedTodo;
+        set => ContentViewModel.SelectedTodo = value;
+    }
+
+    public IRelayCommand LoginCommand { get; }
+    
+    [ObservableProperty]
+    private string greeting = "Добро пожаловать!";
+
+
 
     private void ExecuteLogin()
     {
         if (Username == "admin" && Password == "password")
         {
             IsLoggedIn = true;
-            ErrorMessage = string.Empty;  // Очистить сообщение об ошибке
+            ErrorMessage = string.Empty;
         }
         else
         {
             IsLoggedIn = false;
-            ErrorMessage = "Неверный пароль! Попробуйте снова.";  // Установить сообщение об ошибке
+            ErrorMessage = "Неверный пароль! Попробуйте снова.";
         }
     }
-
-
-    public string Greeting => "Добро пожаловать!";
 }

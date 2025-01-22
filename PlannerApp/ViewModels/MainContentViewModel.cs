@@ -1,7 +1,8 @@
 using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using System.Collections.ObjectModel;
+using System.Threading.Tasks;
+using System.Windows.Input;
+using CommunityToolkit.Mvvm.Input;
 using PlannerApp.Models;
 using PlannerApp.Services;
 
@@ -13,10 +14,24 @@ namespace PlannerApp.ViewModels
 
         public ObservableCollection<Todo> Todos { get; set; } = new();
 
+        // Команды
+        public ICommand AddTodoCommand { get; }
+        public ICommand RemoveTodoCommand { get; }
+
         public MainContentViewModel()
         {
-            _apiService = new ApiService();
+            _apiService = new ApiService("admin", "password");
+            AddTodoCommand = new RelayCommand(async () => await AddTodo());
+            RemoveTodoCommand = new RelayCommand<Guid>(async id => await RemoveTodoAsync(id));
+
             LoadTodosAsync();
+        }
+        
+        private Todo _selectedTodo;
+        public Todo SelectedTodo
+        {
+            get => _selectedTodo;
+            set => SetProperty(ref _selectedTodo, value);
         }
 
         private async Task LoadTodosAsync()
@@ -29,13 +44,21 @@ namespace PlannerApp.ViewModels
             }
         }
 
-        public async Task AddTodoAsync(string title, string description, DateTime deadline)
+        protected virtual async Task AddTodo()
         {
-            await _apiService.AddTodoAsync(title, description, deadline);
+            // Здесь можно использовать статические данные для тестирования
+            var newTodo = new Todo
+            {
+                Title = "Новая задача",
+                Description = "Описание задачи",
+                Deadline = DateTime.Now.AddDays(1)
+            };
+
+            await _apiService.AddTodoAsync(newTodo.Title, newTodo.Description, newTodo.Deadline);
             await LoadTodosAsync();
         }
 
-        public async Task RemoveTodoAsync(Guid id)
+        private async Task RemoveTodoAsync(Guid id)
         {
             await _apiService.RemoveTodoAsync(id);
             await LoadTodosAsync();

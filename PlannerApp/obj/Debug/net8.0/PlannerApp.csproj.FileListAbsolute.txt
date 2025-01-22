@@ -67,6 +67,3 @@ C:\Users\Алина\RiderProjects\PlannerApp\PlannerApp\obj\Debug\net8.0\Planner
 C:\Users\Алина\RiderProjects\PlannerApp\PlannerApp\obj\Debug\net8.0\PlannerApp.genruntimeconfig.cache
 C:\Users\Алина\RiderProjects\PlannerApp\PlannerApp\obj\Debug\net8.0\ref\PlannerApp.dll
 C:\Users\Алина\RiderProjects\PlannerApp\PlannerApp\obj\Debug\net8.0\PlannerApp.sourcelink.json
-C:\Users\Алина\RiderProjects\PlannerApp\PlannerApp\obj\Debug\net8.0\PlannerApp.dll
-C:\Users\Алина\RiderProjects\PlannerApp\PlannerApp\obj\Debug\net8.0\refint\PlannerApp.dll
-C:\Users\Алина\RiderProjects\PlannerApp\PlannerApp\obj\Debug\net8.0\PlannerApp.pdb
