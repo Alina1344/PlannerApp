@@ -10,60 +10,76 @@
         <!-- Регистрация конвертера -->
         <services:InverseBooleanConverter x:Key="InverseBooleanConverter" />
     </Window.Resources>
+    
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
 
-    <StackPanel Margin="20">
-        <!-- Заголовок -->
-        <TextBlock Text="Планировщик задач" FontSize="24" Margin="0,0,0,20" />
+        <StackPanel Margin="20">
+            <!-- Заголовок -->
+            <TextBlock Text="Планировщик задач" FontSize="24" Margin="0,0,0,20" />
 
-        <!-- Форма входа -->
-        <TextBox Watermark="Введите имя пользователя" 
-                 Text="{Binding Username}" 
-                 IsVisible="{Binding IsLoggedIn, Converter={StaticResource InverseBooleanConverter}}"
-                 Margin="0,10,0,10" />
-        <TextBox Watermark="Введите пароль" 
-                 Text="{Binding Password}" 
-                 IsVisible="{Binding IsLoggedIn, Converter={StaticResource InverseBooleanConverter}}" 
-                 Margin="0,10,0,10" />
-        <Button Content="Войти" 
-                Command="{Binding LoginCommand}" 
-                IsVisible="{Binding IsLoggedIn, Converter={StaticResource InverseBooleanConverter}}"
-                Margin="0,20,0,20" />
-        
-        <!-- Сообщение об ошибке -->
-        <TextBlock Text="{Binding ErrorMessage}" 
-                   Foreground="WhiteSmoke" 
-                   HorizontalAlignment="Center" 
-                   VerticalAlignment="Top" 
-                   FontSize="18"
-                   Margin="0,10,0,0" 
-                   IsVisible="{Binding ErrorMessage}" />
+            <!-- Форма входа -->
+            <TextBox Watermark="Введите имя пользователя" 
+                     Text="{Binding Username}" 
+                     IsVisible="{Binding IsLoggedIn, Converter={StaticResource InverseBooleanConverter}}"
+                     Margin="0,10,0,10" />
+            <TextBox Watermark="Введите пароль" 
+                     Text="{Binding Password}" 
+                     IsVisible="{Binding IsLoggedIn, Converter={StaticResource InverseBooleanConverter}}" 
+                     Margin="0,10,0,10" />
+            <Button Content="Войти" 
+                    Command="{Binding LoginCommand}" 
+                    IsVisible="{Binding IsLoggedIn, Converter={StaticResource InverseBooleanConverter}}"
+                    Margin="0,20,0,20" />
+            
+            <!-- Сообщение об ошибке -->
+            <TextBlock Text="{Binding ErrorMessage}" 
+                       Foreground="WhiteSmoke" 
+                       HorizontalAlignment="Center" 
+                       VerticalAlignment="Top" 
+                       FontSize="18"
+                       Margin="0,10,0,0" 
+                       IsVisible="{Binding ErrorMessage}" />
 
-        <!-- Приветствие -->
-        <TextBlock Text="{Binding Greeting}" 
-                   Margin="0,10,0,10" 
-                   IsVisible="{Binding IsLoggedIn}" />
+            <!-- Приветствие -->
+            <TextBlock Text="{Binding Greeting}" 
+                       Margin="0,10,0,10" 
+                       IsVisible="{Binding IsLoggedIn}" />
 
-        <!-- Список задач -->
-        <ListBox ItemsSource="{Binding ContentViewModel.Todos}" 
-                 SelectedItem="{Binding SelectedTodo}"  
-                 IsVisible="{Binding IsLoggedIn}">
-            <ListBox.ItemTemplate>
-                <DataTemplate>
-                    <StackPanel>
-                        <TextBlock Text="{Binding Title}" 
-                                   Margin="0,10,0,0" />
-                        <TextBlock Text="{Binding Description}"
-                                   Margin="0,10,0,0" />
-                        <TextBlock Text="{Binding Deadline}"
-                                   Margin="0,10,0,0" />
-                    </StackPanel>
-                </DataTemplate>
-            </ListBox.ItemTemplate>
-        </ListBox>
-        
-        <!-- Кнопки для работы с задачами -->
-        <Button Content="Добавить задачу" Command="{Binding ContentViewModel.AddTodoCommand}" IsVisible="{Binding IsLoggedIn}" />
-        <Button Content="Удалить задачу" Command="{Binding ContentViewModel.RemoveTodoCommand}" CommandParameter="{Binding SelectedTodo.Id}" IsVisible="{Binding IsLoggedIn}" />
+            <!-- Список задач -->
+            <ListBox ItemsSource="{Binding ContentViewModel.Todos}" 
+                     SelectedItem="{Binding SelectedTodo}"  
+                     IsVisible="{Binding IsLoggedIn}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <TextBlock Text="{Binding Title}" 
+                                       Margin="0,10,0,0" />
+                            <TextBlock Text="{Binding Description}"
+                                       Margin="0,10,0,0" />
+                            <TextBlock Text="{Binding Deadline}"
+                                       Margin="0,10,0,0" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            
+            <!-- Поля для ввода данных новой задачи -->
+            <TextBox Watermark="Введите заголовок задачи" 
+                     Text="{Binding ContentViewModel.NewTodoTitle}" 
+                     Margin="0,10,0,10" 
+                     IsVisible="{Binding IsLoggedIn}" />
+            <TextBox Watermark="Введите описание задачи" 
+                     Text="{Binding ContentViewModel.NewTodoDescription}" 
+                     Margin="0,10,0,10" 
+                     IsVisible="{Binding IsLoggedIn}" />
+            <DatePicker SelectedDate="{Binding ContentViewModel.NewTodoDeadline, Mode=TwoWay}" 
+                        Margin="0,10,0,10" 
+                        IsVisible="{Binding IsLoggedIn}" />
+            
+            <!-- Кнопки для работы с задачами -->
+            <Button Content="Добавить задачу" Command="{Binding ContentViewModel.AddTodoCommand}" IsVisible="{Binding IsLoggedIn}" />
+            <Button Content="Удалить задачу" Command="{Binding ContentViewModel.RemoveTodoCommand}" CommandParameter="{Binding SelectedTodo.Id}" IsVisible="{Binding IsLoggedIn}" />
 
-    </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
 </Window>

@@ -7,7 +7,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="535255ed-fa29-4b70-92cd-221194059040" name="Changes" comment="" />
+    <list default="true" id="535255ed-fa29-4b70-92cd-221194059040" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PlannerApp/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlannerApp/.idea/avalonia.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PlannerApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlannerApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/ViewModels/MainContentViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/ViewModels/MainContentViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/Views/MainWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/bin/Debug/net8.0/PlannerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/bin/Debug/net8.0/PlannerApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/bin/Debug/net8.0/PlannerApp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/bin/Debug/net8.0/PlannerApp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/bin/Debug/net8.0/PlannerApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/bin/Debug/net8.0/PlannerApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/Avalonia/PlannerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/Avalonia/PlannerApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/Avalonia/PlannerApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/Avalonia/PlannerApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/Avalonia/resources" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/Avalonia/resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/ref/PlannerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/ref/PlannerApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/refint/Avalonia/PlannerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/refint/Avalonia/PlannerApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/refint/PlannerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/refint/PlannerApp.dll" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +36,27 @@
   <component name="DpaMonitoringSettings">
     <option name="autoShow" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Alina1344"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Alina1344/PlannerApp.git",
+    "accountId": "3ed5b7a7-89cc-4d04-9728-08d3469ade98"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24372012c6c94138bf3f496e104366ffc8f918/81/a81eb530/String.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24372012c6c94138bf3f496e104366ffc8f918/fb/48d8dfb5/Guid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5acc345db3c207bc9d886a36ff14867ef8d65557432172c2a42f19aeac04d1b/Nullable.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -24,18 +65,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.PlannerApp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.PlannerApp.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="PlannerApp" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -67,15 +109,57 @@
       <workItem from="1736972087705" duration="3783000" />
       <workItem from="1737005496703" duration="2475000" />
       <workItem from="1737008586738" duration="7576000" />
+      <workItem from="1737547533772" duration="20739000" />
     </task>
+    <task id="LOCAL-00001" summary="что-то получилось">
+      <option name="closed" value="true" />
+      <created>1737547581471</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737547581471</updated>
+    </task>
+    <task id="LOCAL-00002" summary="перед апокалиписиом">
+      <option name="closed" value="true" />
+      <created>1737554003724</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737554003724</updated>
+    </task>
+    <task id="LOCAL-00003" summary="добавление примерно заработало">
+      <option name="closed" value="true" />
+      <created>1737563754336</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737563754336</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="что-то получилось" />
+    <MESSAGE value="перед апокалиписиом" />
+    <MESSAGE value="добавление примерно заработало" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавление примерно заработало" />
   </component>
 </project>

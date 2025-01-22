@@ -3,6 +3,7 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="PlannerApp/App.axaml" value="PlannerApp/PlannerApp.csproj" />
         <entry key="PlannerApp/Views/LogWindow.axaml" value="PlannerApp/PlannerApp.csproj" />
         <entry key="PlannerApp/Views/LoginWindow.axaml" value="PlannerApp/PlannerApp.csproj" />
         <entry key="PlannerApp/Views/MainWindow.axaml" value="PlannerApp/PlannerApp.csproj" />
