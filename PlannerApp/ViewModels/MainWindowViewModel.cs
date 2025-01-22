@@ -14,6 +14,10 @@ public partial class MainWindowViewModel : ViewModelBase
 
     [ObservableProperty]
     private bool _isLoggedIn;
+    
+    [ObservableProperty]
+    private string _errorMessage;
+
 
     public ICommand LoginCommand { get; }
 
@@ -27,13 +31,15 @@ public partial class MainWindowViewModel : ViewModelBase
         if (Username == "admin" && Password == "password")
         {
             IsLoggedIn = true;
+            ErrorMessage = string.Empty;  // Очистить сообщение об ошибке
         }
         else
         {
-            // Логика обработки неверных данных
             IsLoggedIn = false;
+            ErrorMessage = "Неверный пароль! Попробуйте снова.";  // Установить сообщение об ошибке
         }
     }
+
 
     public string Greeting => "Добро пожаловать!";
 }
