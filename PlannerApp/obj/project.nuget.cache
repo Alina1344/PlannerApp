@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IdNKq32JIFQ=",
+  "dgSpecHash": "eaCKpT6PcWI=",
   "success": true,
   "projectFilePath": "C:\\Users\\Алина\\RiderProjects\\PlannerApp\\PlannerApp\\PlannerApp.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\Алина\\.nuget\\packages\\avalonia.themes.simple\\11.2.1\\avalonia.themes.simple.11.2.1.nupkg.sha512",
     "C:\\Users\\Алина\\.nuget\\packages\\avalonia.win32\\11.2.1\\avalonia.win32.11.2.1.nupkg.sha512",
     "C:\\Users\\Алина\\.nuget\\packages\\avalonia.x11\\11.2.1\\avalonia.x11.11.2.1.nupkg.sha512",
+    "C:\\Users\\Алина\\.nuget\\packages\\citrus.avalonia\\2.1.1\\citrus.avalonia.2.1.1.nupkg.sha512",
     "C:\\Users\\Алина\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.1\\communitytoolkit.mvvm.8.2.1.nupkg.sha512",
     "C:\\Users\\Алина\\.nuget\\packages\\harfbuzzsharp\\7.3.0.2\\harfbuzzsharp.7.3.0.2.nupkg.sha512",
     "C:\\Users\\Алина\\.nuget\\packages\\harfbuzzsharp.nativeassets.linux\\7.3.0.2\\harfbuzzsharp.nativeassets.linux.7.3.0.2.nupkg.sha512",

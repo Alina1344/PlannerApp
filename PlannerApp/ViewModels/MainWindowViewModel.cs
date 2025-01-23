@@ -40,7 +40,7 @@ public partial class MainWindowViewModel : ViewModelBase
     public IRelayCommand LoginCommand { get; }
     
     [ObservableProperty]
-    private string greeting = "Добро пожаловать!";
+    private string greeting = "И КАКИЕ У НАС СЕГОДНЯ ДЕЛА?";
 
 
 

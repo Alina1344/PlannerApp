@@ -14,6 +14,17 @@
     </Application.DataTemplates>
   
     <Application.Styles>
-        <FluentTheme />
+        <!-- Строчка ниже — единственное, что необходимо добавить
+         для подключения нашей темы оформления. А вот всё, что
+         было в секции Application.Styles раньше, лучше убрать! -->
+        <StyleInclude Source="avares://Citrus.Avalonia/Citrus.xaml"/>
+
+        <!-- Для использования других цветовых схем:
+         1. Закомментируйте *все* блоки <StyleInclude /> в файле.
+         2. Раскомментируйте *один* из блоков <StyleInclude /> ниже.  -->
+        <!--<StyleInclude Source="avares://Citrus.Avalonia/Sea.xaml"/> -->
+        <!--<StyleInclude Source="avares://Citrus.Avalonia/Rust.xaml"/> -->
+        <!--<StyleInclude Source="avares://Citrus.Avalonia/Candy.xaml"/> -->
+        <StyleInclude Source="avares://Citrus.Avalonia/Magma.xaml"/> 
     </Application.Styles>
 </Application>
