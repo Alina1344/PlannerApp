@@ -10,7 +10,7 @@ namespace PlannerApp.ViewModels
 {
     public class MainContentViewModel : ViewModelBase
 {
-    private readonly ApiService _apiService;
+    private  ApiService _apiService;
 
     public ObservableCollection<Todo> Todos { get; set; } = new();
 
@@ -35,11 +35,13 @@ namespace PlannerApp.ViewModels
 
     public MainContentViewModel()
     {
-        _apiService = new ApiService("admin", "password");
         AddTodoCommand = new RelayCommand(async () => await AddTodo());
         RemoveTodoCommand = new RelayCommand(async () => await RemoveTodo());
-
-
+    }
+    
+    public void InitializeApiService(string username, string password)
+    {
+        _apiService = new ApiService(username, password);
         LoadTodosAsync();
     }
 
@@ -52,6 +54,8 @@ namespace PlannerApp.ViewModels
 
     private async Task LoadTodosAsync()
     {
+        if (_apiService == null) return;
+
         var todos = await _apiService.GetAllTodosAsync();
         Todos.Clear();
         foreach (var todo in todos)

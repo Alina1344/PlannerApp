@@ -7,8 +7,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="535255ed-fa29-4b70-92cd-221194059040" name="Changes" comment="">
+    <list default="true" id="535255ed-fa29-4b70-92cd-221194059040" name="Changes" comment="sccscsc">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PlannerApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlannerApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/Services/ApiService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/Services/ApiService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/ViewModels/MainContentViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/ViewModels/MainContentViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/ViewModels/MainWindowViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PlannerApp/bin/Debug/net8.0/PlannerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/bin/Debug/net8.0/PlannerApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/bin/Debug/net8.0/PlannerApp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/bin/Debug/net8.0/PlannerApp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/bin/Debug/net8.0/PlannerApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/bin/Debug/net8.0/PlannerApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/Avalonia/PlannerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/Avalonia/PlannerApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/Avalonia/PlannerApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/Avalonia/PlannerApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/ref/PlannerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/ref/PlannerApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/refint/Avalonia/PlannerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/refint/Avalonia/PlannerApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/refint/PlannerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/refint/PlannerApp.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +51,22 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1c4e6943fff94b2791faaa3c77090eb1100400/24/83b2bf63/AppBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24372012c6c94138bf3f496e104366ffc8f918/81/a81eb530/String.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24372012c6c94138bf3f496e104366ffc8f918/fb/48d8dfb5/Guid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f756609c93104d12b4c2d24605eb00101a6920/0b/37ebedf5/HttpClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/13a64fb0a2a6248c571afb757f874e403cf79db7/PlannerApp.ViewModels.MainWindowViewModel.g.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/13e79b2a7b78394ccf591d3454bff5bfb14e692da011a7e38b66c2312b365a/String.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1f958dd4882b291dd368ff1f8a231def6d33587cd8bc959162cc742cd430ec/AppBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/20c0f49b8854743afaecc2f359655fdbfc6c5264f49e9eb333686e85a87bf/RelayCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2565b9d99fdde488bc7801b84387b2cc864959cfb63212e1ff576fc9c6bb7e/CancellationToken.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5acc345db3c207bc9d886a36ff14867ef8d65557432172c2a42f19aeac04d1b/Nullable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6f90c6c13479b8c2a5be98f3d75dfc3bd885a055652d8a32904ca2448132949e/Future.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/71aa2cbb23c1dfca1f90c5fe4639580bc7644ec2d366a914d012181139a67f/ClassicDesktopStyleApplicationLifetime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9a6b1457cbcf17db31a383ba49ef9bcc786cf3ef77146d997eee499b27a46d/Object.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b05fc3ef644b7632d4481b3defa11634da02637d896cb5eca3eca7cf2f3ee3/String.Manipulation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cc84c38d8785b88e166e6741b6a4c0dfa09eaf6e41eb151b255817e11f27570/Button.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f34b7dba497d78f3d676d77ac27a898ffad8561/PlannerApp.ViewModels.MainWindowViewModel.g.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -47,19 +77,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.PlannerApp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.PlannerApp.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "XThreadsFramesViewSplitterKey": "0.1262136",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="PlannerApp" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -93,6 +124,7 @@
       <workItem from="1737008586738" duration="7576000" />
       <workItem from="1737547533772" duration="20739000" />
       <workItem from="1737581240823" duration="5130000" />
+      <workItem from="1737631476040" duration="12970000" />
     </task>
     <task id="LOCAL-00001" summary="что-то получилось">
       <option name="closed" value="true" />
@@ -126,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737586265986</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="sccscsc">
+      <option name="closed" value="true" />
+      <created>1737631902584</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737631902584</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +192,26 @@
     <MESSAGE value="перед апокалиписиом" />
     <MESSAGE value="добавление примерно заработало" />
     <MESSAGE value="Получилось!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Получилось!!!" />
+    <MESSAGE value="sccscsc" />
+    <option name="LAST_COMMIT_MESSAGE" value="sccscsc" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/PlannerApp/ViewModels/MainWindowViewModel.cs</url>
+          <line>53</line>
+          <properties documentPath="C:\Users\Алина\RiderProjects\PlannerApp\PlannerApp\ViewModels\MainWindowViewModel.cs" containingFunctionPresentation="Method 'ExecuteLogin'">
+            <startOffsets>
+              <option value="1279" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1331" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

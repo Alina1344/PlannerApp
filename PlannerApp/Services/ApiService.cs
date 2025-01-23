@@ -24,6 +24,24 @@ namespace PlannerApp.Services
             var base64AuthString = Convert.ToBase64String(Encoding.UTF8.GetBytes(authString));
             _httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Basic", base64AuthString);
         }
+        
+        public async Task<bool> AuthenticateAsync(string username, string password)
+        {
+            try
+            {
+                var authString = $"{username}:{password}";
+                var base64AuthString = Convert.ToBase64String(Encoding.UTF8.GetBytes(authString));
+                _httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Basic", base64AuthString);
+
+                var response = await _httpClient.GetAsync("api/Todo/GetAllTodos");
+                return response.IsSuccessStatusCode;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Ошибка аутентификации: {ex.Message}");
+                return false;
+            }
+        }
 
         public async Task<List<Todo>> GetAllTodosAsync()
         {
