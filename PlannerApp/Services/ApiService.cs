@@ -18,7 +18,7 @@ namespace PlannerApp.Services
             {
                 BaseAddress = new Uri("http://localhost:5062/")
             };
-
+            
             // Создаем Base64-строку и добавляем ее в заголовок Authorization
             var authString = $"{username}:{password}";
             var base64AuthString = Convert.ToBase64String(Encoding.UTF8.GetBytes(authString));

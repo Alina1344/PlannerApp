@@ -8,14 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="535255ed-fa29-4b70-92cd-221194059040" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/Avalonia/resources" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/Avalonia/resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/PlannerApp.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/refint/PlannerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/obj/Debug/net8.0/refint/PlannerApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlannerApp/bin/Debug/net8.0/PlannerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlannerApp/bin/Debug/net8.0/PlannerApp.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
